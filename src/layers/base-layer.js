@@ -1069,7 +1069,7 @@ export default class Layer {
       id: `${this.id}-hovered`,
       pickable: false,
       wrapLongitude: true,
-      coordinateSystem: COORDINATE_SYSTEM.LNGLAT_DEPRECATED
+      coordinateSystem: COORDINATE_SYSTEM.LNGLAT
     }
   }
 }
